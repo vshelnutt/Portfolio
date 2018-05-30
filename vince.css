@@ -1,0 +1,147 @@
+
+html {
+    height: 100%;
+}
+body {
+  
+    background: linear-gradient(to right, blue,  cyan) !important;
+}
+
+/*body {background-image: url("http://vincentshelnutt.com/paper.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100%
+background-color: black;
+}*/
+/*http://my-little-pwny.com/aerial.jpeg*/
+
+.img-circle {
+  margin: 5em 0em 5em 1rem;
+  height: 50%;
+  width: 50%;
+  
+}
+#header {
+   height: 2.2em;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9999;
+font-family: 'Orbitron', sans-serif;
+  background-color: gray;
+    color: #13a9ff;*/
+}
+
+p {font-family: 'Josefin Sans', sans-serif;
+  font-size:1.5em;
+  color: white;
+  letter-spacing:3px;
+  background-color: gray;
+  opacity: 0.8;
+}
+#psection {
+border: solid black 2px;
+}
+#portfolio {margin-bottom:3em;
+letter-spacing:4px;
+  background-color: gray;
+  opacity: 0.8;
+  
+}
+.thumbnail{
+border: solid black 2px;
+}
+.caption {
+border: solid black 2px;
+font-family: 'Orbitron', sans-serif;
+}
+#intro {background-color:#ff3333;
+}
+#pheader { 
+   font-family: 'Orbitron', sans-serif;
+  background-color: #13a9ff;
+    opacity: 0.8;
+}
+/*#portrait {z-index;}
+*/
+#header .hideme {
+    opacity:0;
+}
+
+
+.hideme {
+    opacity:0;
+}
+#social {
+font-size:4em;
+/*letter-spacing:100px;
+display:inline-block;
+text-align: center;*/ 
+}
+
+.fa-linkedin {
+  margin-bottom: 5em;
+}
+
+
+
+.btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 4s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-get-started:hover {
+transition: 4s;
+  background: linear-gradient(to right, cyan,  cyan) ;
+  border: 2px solid #2dc997;
+ 
+}
+#contact{
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 3px;
+   display: flex
+   align-items: center;
+   justify-content: center;
+  padding: 8px 28px;
+  border-radius: 150px;
+  transition: 0.5s;
+  margin: 1em 0 3em 0;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
