@@ -42,6 +42,9 @@ p {font-family: 'Josefin Sans', sans-serif;
   background-color: gray;
   opacity: 0.8;
 }
+#portfolioSectionTop {
+padding-bottom: 1.5rem;
+}
 #psection {
 border: solid black 2px;
 }
@@ -49,24 +52,17 @@ border: solid black 2px;
 letter-spacing:4px;
   background-color: gray;
   opacity: 0.8;
-  
-}
-.thumbnail{
-border: solid black 2px;
 }
 .caption {
-border: solid black 2px;
 font-family: 'Orbitron', sans-serif;
 }
 #intro {background-color:#ff3333;
 }
 #pheader { 
    font-family: 'Orbitron', sans-serif;
-  background-color: #13a9ff;
+  margin-top: 2em;
     opacity: 0.8;
 }
-/*#portrait {z-index;}
-*/
 #header .hideme {
     opacity:0;
 }
@@ -108,23 +104,6 @@ text-align: center;*/
 transition: 4s;
   background: linear-gradient(to right, cyan,  cyan) ;
   border: 2px solid #2dc997;
- 
-}
-#contact{
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 45px;
-  letter-spacing: 3px;
-   display: flex
-   align-items: center;
-   justify-content: center;
-  padding: 8px 28px;
-  border-radius: 150px;
-  transition: 0.5s;
-  margin: 1em 0 3em 0;
-  border: 2px solid #fff;
-  color: #fff;
 }
 #myBtn {
     display: none; /* Hidden by default */
@@ -134,11 +113,11 @@ transition: 4s;
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    background-color: blue; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
 

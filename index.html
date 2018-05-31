@@ -1,7 +1,9 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<link rel="stylesheet" href="vince.css" > 
+ 	<link rel="stylesheet" href="vince.css" >
+ 	<link rel="stylesheet" href="colorFade.css" > 
+ 	<script type="text/javascript" src="colorFade.js" > </script>
  	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">  
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
@@ -32,17 +34,18 @@
  			<div class=" container">
  				<div class="text-center col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
  				<div class="" id="social">
- 					<i class="hideme fab fa-github"></i><a href="#build" class="btn-get-started">Get Started</a><i class="hideme fab fa-linkedin"></i>
+ 					<i class="hideme fab fa-github"></i><a href="#portfolioSectionTop" class="btn-get-started">Get Started</a><i class="hideme fab fa-linkedin"></i>
  				</div>
  			</div>
 
  			</div>
+ 			<div id="portfolioSectionTop"></div>
  		</div>
 
 
  			<br>
  			<hr>
- 			<p class="hideme text-center" id="build"> <br>HI I'm Vince and I want to build you a website!<br></p>
+ 			<p class="hideme text-center" id="colorFade"> <br>HI I'm Vince and I want to build you a website!<br></p>
  			<hr>
 
  			<!--begin portfolio section-->
@@ -51,7 +54,7 @@
  				<br><br>
  			</div>
  			<div id="portfolio" class = "row center-block">
- 				<div class = "col-sm-6 col-md-6 col-lg-6 id="psection">
+ 				<div class = "col-sm-6 col-md-6 col-lg-6" id="psection">
  					<a href = "http://prestigeinsurancetexas.com/" class = "thumbnail">
  						<img src = "prestige.jpg" alt = "Prestige Insurance">
  					</a>
@@ -59,8 +62,8 @@
  						<h3>Prestige Insurace Texas</h3>
  						<p>An interactive insurance company website. </p>                                                                         </div>
  					</div>
- 					<div  class = " row center-block">
- 						<div class = "col-sm-6 col-md-6 col-lg-6">
+ 					<div  class = "row center-block" >
+ 						<div class = "col-sm-6 col-md-6 col-lg-6" id="psection">
  							<a href = "http://my-little-pwny.com/willetstore/" class = "thumbnail">
  								<img src = "willetstore.jpg" alt = "Willet Run Automotive">
  							</a>
@@ -74,7 +77,8 @@
  					<br><br>
  					<hr>
  					<!--begin contact section-->  
- 					<div class="row text-center col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">                                                 <a href="#top" id="contact" 	class="btn-get-started">contact me</a>    
+ 					<div class="row text-center col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">                                               
+						  <a href="#top" 	class="btn-get-started">contact me</a>    
  					</div>
  					                  
  				
